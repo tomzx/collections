@@ -1,0 +1,41 @@
+{
+	"name": "tomzx/collections",
+	"description": "PHP Collections API",
+	"type": "library",
+	"keywords": [
+		"collections"
+	],
+	"homepage": "https://github.com/tomzx/collections",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Tom Rochette",
+			"email": "tom@tomrochette.com",
+			"homepage": "http://www.tomrochette.com"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/tomzx/collections/issues"
+	},
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~4"
+	},
+	"autoload": {
+		"psr-4": {
+			"tomzx\\Collections\\": "src/tomzx/Collections"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"tomzx\\Collections\\Test\\": "tests/tomzx/Collections"
+		}
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "0.1-dev"
+		}
+	}
+}
